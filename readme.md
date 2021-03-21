@@ -162,12 +162,35 @@ index 215c1a9..2d2483c 100644
 -#WORKING WITH GIT BRANCHES AND FORKS
 +# <span style="color:red">WORKING WITH GIT BRANCHES AND FORKS</span>
 
- ## Type "git branch" to see what branch Im on:
+## Tried to push this PUSH from this branch:
 
-@@ -114,33 +114,3 @@ $ git branch
- * master
+$ git push
+fatal: The current branch feature-readme-update has no upstream branch.
+To push the current branch and set the remote as upstream, use
 
- ## It will have a "*" beside it
-:
+    git push --set-upstream origin feature-readme-update
+
+## Have to set the "UPSTREAM" 
+
+**NOTE Could have also used the shorthand for this command:
+git push -u origin feature-readme-update
+
+## Push again after setting upstream:
+
+$ git push --set-upstream origin feature-readme-update
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.    
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (6/6), 1.09 KiB | 372.00 KiB/s, done.
+Total 6 (delta 2), reused 0 (delta 0), pack-reused 0       
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+remote: 
+remote: Create a pull request for 'feature-readme-update' on GitHub by visiting:
+remote:      https://github.com/kinnpiano1970/demo-repo2/pull/new/feature-readme-update
+remote:
+To github.com:kinnpiano1970/demo-repo2.git
+ * [new branch]      feature-readme-update -> feature-readme-update
+Branch 'feature-readme-update' set up to track remote branch 'feature-readme-update' from 'origin'.
 
 
