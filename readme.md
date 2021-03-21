@@ -106,7 +106,7 @@ To github.com:kinnpiano1970/demo-repo2.git
    8bfa55e..e190376  master -> master
 Branch 'master' set up to track remote branch 'master' from 'origin'.
 
-# WORKING WITH GIT BRANCHES AND FORKS
+<span style="color:red"># WORKING WITH GIT BRANCHES AND FORKS</span>
 
 ## Type "git branch" to see what branch Im on:
 
