@@ -106,7 +106,7 @@ To github.com:kinnpiano1970/demo-repo2.git
    8bfa55e..e190376  master -> master
 Branch 'master' set up to track remote branch 'master' from 'origin'.
 
-# <span style="color:red">WORKING WITH GIT BRANCHES AND FORKS</span>
+#WORKING WITH GIT BRANCHES AND FORKS
 
 ## Type "git branch" to see what branch Im on:
 
@@ -114,3 +114,33 @@ $ git branch
 * master
 
 ## It will have a "*" beside it
+
+## Can use "git checkout" to SWITCH to another BRANCH
+
+## But First CREATE a new BRANCH with "git checkout -b <NEW BRANCH NAME>"
+
+$ git checkout -b 'feature-readme-update'
+Switched to a new branch 'feature-readme-update'
+
+## Run GIT BRANCH now:
+
+$ git branch
+* feature-readme-update
+  master
+
+  ## Shows both branches 
+
+  ## Use GIT CHECKOUT TO SWITCH BETWEEN BRANCHES
+
+$ git checkout master
+Switched to branch 'master'
+M       readme.md
+Your branch is up to date with 'origin/master'.
+
+
+$ git checkout feature-readme-update
+Switched to branch 'feature-readme-update'
+M       readme.md
+
+
+
