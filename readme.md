@@ -142,5 +142,32 @@ $ git checkout feature-readme-update
 Switched to branch 'feature-readme-update'
 M       readme.md
 
+## At this point I did a git "add" and "commit"
+
+## Switched to "master" and the changes I did on "feature-reame-update" readme.md was not in the "master" branch readme.md
+
+## ONE BRANCH CANNOT SEE THE UPDATES TO ANOTHER BRANCH
+
+## (Switch to MASTER first) Use "git diff <BRANCH NAME> to see changes made
+
+$ git diff feature-readme-update
+diff --git a/readme.md b/readme.md
+index 215c1a9..2d2483c 100644     
+--- a/readme.md
++++ b/readme.md
+@@ -106,7 +106,7 @@ To github.com:kinnpiano1970/demo-repo2.git
+    8bfa55e..e190376  master -> master
+ Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+-#WORKING WITH GIT BRANCHES AND FORKS
++# <span style="color:red">WORKING WITH GIT BRANCHES AND FORKS</span>
+
+ ## Type "git branch" to see what branch Im on:
+
+@@ -114,33 +114,3 @@ $ git branch
+ * master
+
+ ## It will have a "*" beside it
+:
 
 
