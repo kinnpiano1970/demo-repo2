@@ -115,6 +115,8 @@ $ git branch
 
 ## It will have a "*" beside it
 
+# ** The original tutorial text stopped here as the tutorial had me CREATE A NEW BRANCH.**
+
 ## Can use "git checkout" to SWITCH to another BRANCH
 
 ## But First CREATE a new BRANCH with "git checkout -b <NEW BRANCH NAME>"
@@ -192,5 +194,4 @@ remote:
 To github.com:kinnpiano1970/demo-repo2.git
  * [new branch]      feature-readme-update -> feature-readme-update
 Branch 'feature-readme-update' set up to track remote branch 'feature-readme-update' from 'origin'.
-
 
